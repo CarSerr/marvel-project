@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Mi Página de Videojuegos</h1>
+    </header>
+
+    <nav>
+        <a href="#juegos-populares">Juegos Populares</a>
+        <a href="#novedades">Novedades</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="main-content">
+        <section id="juegos-populares">
+            <h2>Juegos Populares</h2>
+            <ul class="game-list">
+                <li><strong>The Legend of Zelda: Breath of the Wild</strong> - Un juego de mundo abierto lleno de aventuras y acertijos.</li>
+                <li><strong>God of War</strong> - Sigue la historia de Kratos mientras lucha contra los dioses nórdicos.</li>
+                <li><strong>Fortnite</strong> - Un battle royale con construcción y mucha acción.</li>
+                <img src="img/fortnite_img.png" alt="Un battle royale con construcción y mucha acción">
+            </ul>
+        </section>
+
+        <section id="novedades">
+            <h2>Novedades</h2>
+            <p>¡Descubre los próximos lanzamientos de videojuegos que llegarán en 2024! Aquí hay algunos títulos que han generado gran expectación:</p>
+            <ul>
+                <li><strong>Starfield</strong> - Un RPG de ciencia ficción de Bethesda que promete explorar mundos interestelares.</li>
+                <li><strong>Elder Scrolls VI</strong> - El nuevo capítulo en la legendaria serie de RPGs de fantasía.</li>
+                <li><strong>Spider-Man 2</strong> - La secuela del exitoso juego de acción basado en el superhéroe arácnido.</li>
+            </ul>
+            <p>¡Mantente atento para más actualizaciones y trailers de estos títulos!</p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¿Tienes preguntas, sugerencias o quieres colaborar con nosotros? Completa el formulario de contacto a continuación:</p>
+            <form class="contact-form" action="mailto:info@videojuegos.com" method="post" enctype="text/plain">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Tu email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+                <input type="submit" value="Enviar Mensaje">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 Mi Página de Videojuegos. Todos los derechos reservados.</p>
+    </footer>
+</html>
